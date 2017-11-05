@@ -34,7 +34,7 @@ class PortfoliosController < ApplicationController
       end
     end
   end
-<<<<<<< HEAD
+
   def edit
     @portfolio_item = Portfolio.find(params[:id])
   end
@@ -50,11 +50,8 @@ class PortfoliosController < ApplicationController
       end
     end
   end
-=======
   def show
-    @portfolio_item = Portfolio.find(params[:id])
-    
-  end
+@portfolio_item = Portfolio.find(params[:id])
 
->>>>>>> mario
+end
 end
