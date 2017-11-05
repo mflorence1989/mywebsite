@@ -33,10 +33,8 @@ class PortfoliosController < ApplicationController
         format.html { render :edit }
       end
     end
-  end
-  def show
+      def show
     @portfolio_item = Portfolio.find(params[:id])
     
   end
-
-end
+  end
