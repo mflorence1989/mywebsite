@@ -14,6 +14,7 @@ gem 'pg'
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
@@ -52,3 +53,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'friendly_id', '~> 5.2', '>= 5.2.3'
 gem 'devise', '~> 4.3'
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'florence_view_tool', '~> 0.1.0'
