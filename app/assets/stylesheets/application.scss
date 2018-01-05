@@ -168,18 +168,7 @@ body {
 .card-block {
   color: black;
   text-align: left;
-  font-size: 10px;
-
 }
-
-.card {
-  width: 40em;
-  height: 32em;
-
-
-}
-
-
 
 .auth-links a {
   color: black;
@@ -187,4 +176,10 @@ body {
 
 .register-text {
   text-align: right;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
 }
