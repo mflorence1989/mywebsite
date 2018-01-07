@@ -1,5 +1,5 @@
 module ApplicationHelper
-  def login_helper style = ""
+  def login_helper style = ''
     if current_user.is_a?(GuestUser)
       (link_to "Register", new_user_registration_path, class: style) +
       " ".html_safe +
@@ -14,11 +14,13 @@ module ApplicationHelper
       greeting = "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout"
       content_tag(:p, greeting, class: "source-greeting")
     end
-end
+  end
+
   def copyright_generator
     FlorenceViewTool::Renderer.copyright 'Mario Florence', 'All rights reserved'
-    end
-    def nav_items
+  end
+
+  def nav_items
     [
       {
         url: root_path,
@@ -55,6 +57,18 @@ end
 
   def active? path
     "active" if current_page? path
+  end
+
+  def alerts
+    alert = (flash[:alert] || flash[:error] || flash[:notice])
+
+    if alert
+      alert_generator alert
+    end
+  end
+
+  def alert_generator msg
+    js add_gritter(msg, title: "Mario Florence Portfolio", sticky: false)
   end
 
 end
