@@ -1,5 +1,3 @@
-
-
 class BlogsController < ApplicationController
 before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
 before_action :set_sidebar_topics, except: [:update, :create, :destroy, :toggle_status]
