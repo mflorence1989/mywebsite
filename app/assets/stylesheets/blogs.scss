@@ -125,11 +125,13 @@ p{
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 1rem;
+
+
   /*margin: 0 -1rem 1rem;*/
 }
 .sidebar-module-inset {
   padding: 1rem;
-  background-color: grey;
+  
   border-radius: .25rem;
 }
 .sidebar-module-inset p:last-child,
