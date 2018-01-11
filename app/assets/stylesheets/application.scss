@@ -12,6 +12,14 @@ a:hover {
   color: #fff;
 }
 
+.cover-heading{
+  color:red;
+  font-size: 100px;
+  font-weight: 200;
+
+
+}
+
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
@@ -68,8 +76,12 @@ h6, .h6 {
 /* Padding for spacing */
 .inner {
   padding: 2rem;
+
 }
 
+p{
+  color:black;
+}
 
 /*
  * Header
@@ -81,6 +93,7 @@ h6, .h6 {
 
 .masthead-brand {
   margin-bottom: 0;
+  color:black;
 }
 
 .nav-masthead .nav-link {
@@ -210,7 +223,7 @@ h6, .h6 {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('philly_home.png') no-repeat;
   background-size: cover;
 }
 
@@ -220,11 +233,11 @@ h6, .h6 {
 
 .tech-news {
   color: black;
-  margin: 20px;
+  margin: 15px;
 }
 
 .tech-news > .card {
-  padding: 30px;
+  padding: 10px;
 }
 
 .tech-news a {
@@ -237,7 +250,7 @@ h6, .h6 {
 }
 
 .app-card-container > .card {
-  padding: 40px;
+  padding: 5px;
 }
 
 .profile-img {
@@ -254,6 +267,7 @@ h6, .h6 {
 }
 
 .skill {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+
 }

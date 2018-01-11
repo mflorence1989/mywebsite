@@ -22,10 +22,10 @@ h6, .h6 {
 }
 
 .jumbotron {
-  padding-top: 6rem;
+  padding-top: 2rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
-  background-color: #fff;
+
 }
 
 .jumbotron p:last-child {
@@ -38,6 +38,15 @@ h6, .h6 {
 
 .jumbotron .container {
   max-width: 40rem;
+  max-height: 10rem;
+
+
+}
+
+p{
+  font-family: 'Roboto Slab', serif;
+  color:black;
+
 }
 
 .album {
@@ -70,6 +79,19 @@ footer {
 
 footer p {
   margin-bottom: .25rem;
+}
+
+.blog-nav {
+  margin-bottom: 30px;
+  background-color: grey;
+
+}
+
+.blog-header {
+  padding-bottom: 1.25rem;
+  margin-bottom: 2rem;
+  border-bottom: .05rem solid #eee;
+
 }
 
 /* Custom styles */
