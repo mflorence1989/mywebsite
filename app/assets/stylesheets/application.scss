@@ -47,12 +47,17 @@ body {
 }
 
 h1, .h1,
-h2, .h2,
+
 h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
   font-family: 'Roboto Slab', serif;
+}
+
+h2, .h2,{
+font-family: 'Roboto Slab', serif;
+text-align: center; 
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -225,7 +230,7 @@ p{
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('philly_home.png') no-repeat;
+  background: image-url('new_home.png') no-repeat;
   background-size: cover;
 }
 
