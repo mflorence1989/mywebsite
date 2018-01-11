@@ -9,7 +9,7 @@ end
 
 gem 'rails', '~> 5.1.4'
 
-
+gem 'pg'
 
 gem 'puma', '~> 3.7'
 
@@ -25,14 +25,10 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'pry-byebug'
-  gem 'sqlite3'
+
 end
 
-group :production do
 
-  gem 'pg'
-  gem 'rails_12factor'
-end
 
 group :development do
 
