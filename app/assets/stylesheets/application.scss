@@ -1,6 +1,7 @@
 @import "bootstrap";
 
 
+
 /*
  * Globals
  */
@@ -206,6 +207,8 @@ p{
 
 .register-text {
   text-align: right;
+  font-family: 'Roboto Slab', serif;
+
 }
 
 .login > .card {
@@ -267,6 +270,8 @@ p{
 .app-card-container a {
   color: blue;
 }
+
+
 
 .card-block {
   margin-top: 5px;
