@@ -91,6 +91,7 @@ p{
 }
 
 
+
 /*
  * Blog name and description
  */
@@ -98,6 +99,7 @@ p{
 .blog-header {
   padding-bottom: 1.25rem;
   margin-bottom: 2rem;
+  text-align: center;
   border-bottom: .05rem solid #eee;
 
 }
@@ -131,7 +133,7 @@ p{
 }
 .sidebar-module-inset {
   padding: 1rem;
-  
+
   border-radius: .25rem;
 }
 .sidebar-module-inset p:last-child,

@@ -3,7 +3,7 @@ module PortfoliosHelper
     "http://placehold.it/#{height}x#{width}"
   end
 
-  def portfolio_img img, type
+  def portfolio_img(img, type)
     if img.model.main_image? || img.model.thumb_image?
       img
     elsif type == 'thumb'
