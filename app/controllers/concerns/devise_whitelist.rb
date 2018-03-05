@@ -1,4 +1,3 @@
-
 module DeviseWhitelist
   extend ActiveSupport::Concern
 
